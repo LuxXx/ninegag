@@ -1,6 +1,7 @@
 # LuxXx' 9gag API
 
 I implemented a restful serverless 9GAG API with AWS Lambda. It fetches a post and all corresponding information by its id.
+It's currently hosted in Frankfurt. If you need a mirror somewhere else, message me (pr0v0ziert@gmx.de).
 
 ## API
 The API contains the following functions
