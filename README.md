@@ -25,13 +25,13 @@ The Response object contains another json with the post information:
 
 ```json
 {
-	imageLink: 'http://img-9gag-fun.9cache.com/photo/aWmZAPZ_700b.jpg',
-	webmLink: 'http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460svwm.webm',
-	mp4Link: 'http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460sv.mp4',
-	gifLink: 'http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460sa.gif',
-	id: 'aWmZAPZ',
-	title: 'Where she&#039;s travelling?',
-	animated: true,
-	nextId: 'aLDK7ZP'
+	"imageLink": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_700b.jpg",
+	"webmLink": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460svwm.webm",
+	"mp4Link": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460sv.mp4",
+	"gifLink": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460sa.gif",
+	"id": "aWmZAPZ",
+	"title": "Where she&#039;s travelling?",
+	"animated": true,
+	"nextId": "aLDK7ZP"
 }
 ```
