@@ -36,3 +36,4 @@ The Response object contains another json with the post information:
 	"nextId": "aLDK7ZP"
 }
 ```
+17.05.2017: 9gag switched to HTTPS some time ago, therefore I had to tweak this project a little bit
