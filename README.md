@@ -37,4 +37,5 @@ The Response object contains another json with the post information:
 }
 ```
 17.05.2017: 9gag switched to HTTPS some time ago, therefore I had to tweak this project a little bit
+
 14.03.2018: 9gag changed the data structure, added `nsfw`, `upVoteCount`, and `commentsCount`
