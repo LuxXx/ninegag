@@ -12,10 +12,9 @@ https.get('https://4hh6cgdgxc.execute-api.eu-central-1.amazonaws.com/dev/' + id,
   res.on('end', () => {
 
     let obj = JSON.parse(data);
-    let post = JSON.parse(obj.body).post;
 
     // TODO: Do something with your post
-    console.log(post);
+    console.log(obj.body);
 
   });
 
