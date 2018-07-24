@@ -18,14 +18,7 @@ This is a sample response:
 {
   "statusCode": 200,
   "success": true,
-  "body": "{\"post\":{\"imageLink\":\"http://img-9gag-fun.9cache.com/photo/a0bPvMO_700b.jpg\",\"webmLink\":\"http://img-9gag-fun.9cache.com/photo/a0bPvMO_460svwm.webm\",\"mp4Link\":\"http://img-9gag-fun.9cache.com/photo/a0bPvMO_460sv.mp4\",\"gifLink\":\"http://img-9gag-fun.9cache.com/photo/a0bPvMO_460sa.gif\",\"id\":\"a0bPvMO\",\"title\":\"Which one do you prefer ? (flash fan here)\",\"animated\":false,\"nextId\":\"aqbmoqR\"}}"
-}
-```
-
-The Response object contains another json with the post information:
-
-```json
-{
+  "body": {
 	"imageLink": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_700b.jpg",
 	"webmLink": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460svwm.webm",
 	"mp4Link": "http://img-9gag-fun.9cache.com/photo/aWmZAPZ_460sv.mp4",
@@ -35,7 +28,11 @@ The Response object contains another json with the post information:
 	"animated": true,
 	"nextId": "aLDK7ZP"
 }
+}
 ```
+
 17.05.2017: 9gag switched to HTTPS some time ago, therefore I had to tweak this project a little bit
 
 14.03.2018: 9gag changed the data structure, added `nsfw`, `upVoteCount`, and `commentsCount`
+
+24.07.2018: Changed the type of the body of the response
