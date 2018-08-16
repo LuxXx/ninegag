@@ -10,7 +10,7 @@ The API contains the following functions
 
 ### Resource URL
 
-`https://4hh6cgdgxc.execute-api.eu-central-1.amazonaws.com/dev/:id`
+`https://ninegag.tdbr.de/:id`
 
 #### Sample Response
 This is a sample response:
