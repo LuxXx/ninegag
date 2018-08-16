@@ -2,7 +2,7 @@ const https = require('https');
 
 
 let id = 'aWmZAPZ';
-https.get('https://4hh6cgdgxc.execute-api.eu-central-1.amazonaws.com/dev/' + id, (res) => {
+https.get('https://ninegag.tdbr.de/' + id, (res) => {
 
   let data = '';
 
